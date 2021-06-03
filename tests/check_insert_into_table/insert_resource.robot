@@ -8,6 +8,6 @@ Test Setup
     Create Session
     Connect To Postrgesql
 Test Teardown
-    delete_rest.delete from table rest  alias=alias
+    delete_rest.delete from table rest  alias=alias     url=/categories?categoryname=eq.Arthouse
     Req.Delete All Sessions
     DB.Disconnect From Postgresql
